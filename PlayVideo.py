@@ -22,6 +22,6 @@ def loopVideo(video_path):
     cap.release()
     cv2.destroyAllWindows()
 
-
+#调用播放
 if __name__ == '__main__':
     loopVideo('0.mp4')
